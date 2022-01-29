@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Cairo&display=swap");
+@media (max-width: 75rem) {
+  body {
+    max-width: 75rem;
+  }
+  .containerHeader {
+    grid-column: 1/-1;
+    text-align: center;
+  }
+  #root {
+    display: block;
+    /* grid-template-columns: 25% 1fr 1fr; */
+  }
+  svg {
+    margin-left: 0.65rem;
+    color: white;
+    float: right;
+    width: 0.75rem;
+    height: 0.75rem;
+  }
+  .box {
+    width: 90%;
+    grid-column: 1/-1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.875rem;
+    box-shadow: 6.25rem 3.125rem 9.37rem rgb(105, 100, 91);
+    background-color: rgb(246, 248, 250);
+    margin: auto auto;
+  }
+  .row1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: cornflowerblue;
+    padding: 0.9rem;
+  }
+}
+body {
+  background-color: #eaedf1;
+}
+#root {
+  display: grid;
+  grid-template-columns: 25% 1fr 1fr;
+  /* column-gap: 20px; */
+}
+.containerHeader {
+  grid-column: 1/-1;
+  text-align: center;
+}
+
+svg {
+  margin-left: 1.25rem;
+  color: white;
+  float: right;
+  width: 1.56rem;
+  height: 1.56rem;
+}
+
+.box {
+  width: 90%;
+  grid-column: 1/-1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.875rem;
+  box-shadow: 6.25rem 3.125rem 9.37rem rgb(105, 100, 91);
+  background-color: rgb(246, 248, 250);
+  margin: auto auto;
+}
+.row1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: cornflowerblue;
+  padding: 0.9rem;
+}
+.row1 span {
+  font-size: 1.25rem;
+  color: white;
+  font-family: "Cairo", sans-serif;
+}
+.row2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(246, 248, 250);
+  box-shadow: 6.25rem 3.125rem 9.37rem wheat;
+  padding: 0.9rem;
+}
+.desktopheaderimage {
+  margin-top: 1.875rem;
+}
+.discover {
+  width: 70%;
+  box-shadow: 6.25rem 3.125rem 9.37rem wheat;
+  background-color: rgb(246, 248, 250);
+  font-weight: bold;
+  line-height: 2.5rem;
+  align-items: center;
+  justify-content: center;
+  margin: 1.875rem auto;
+}
+.discover p {
+  margin-left: 1.25rem;
+}
+.cont {
+  display: flex;
+  justify-content: space-between;
+  gap: 1.25rem;
+  margin: 1.875rem auto;
+  width: auto;
+}
+.footer {
+  width: 90%;
+  grid-column: 1/-1;
+  display: flex;
+  justify-content: space-between;
+  margin: 1.875rem auto;
+}
+.footer div :nth-child(1) {
+  font-weight: bold;
+}
+.row2 div span {
+  margin-left: 1.25rem;
+}
+.row2 div input {
+  margin-left: 50rem;
+}
